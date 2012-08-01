@@ -57,7 +57,7 @@ module Paypal
     # Example:
     #   Paypal::Notification.ipn_url = "https://www.paypal.com/cgi-bin/webscr"
     cattr_accessor :ipn_url
-    @@ipn_url = 'https://www.sandbox.paypal.com/cgi-bin/webscr'
+    @@ipn_url = 'https://www.paypal.com/cgi-bin/webscr'
     
     cattr_accessor :ca_cert_file
     @@ca_cert_file = CA_CERT_FILE
